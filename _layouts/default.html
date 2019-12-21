@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" type="text/scss" href="{{ site.baseurl }}/style.scss" /> -->
+    
+  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
