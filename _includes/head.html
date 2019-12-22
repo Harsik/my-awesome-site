@@ -1,0 +1,19 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:locale" content="en_KR" />
+<meta name="description" content="{{ site.description }}">
+<meta property="og:description" content="{{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:url" content="{% if page.baseurl %}{{ page.baseurl }}{% else %}{{ site.baseurl }}{% endif %}" />
+<meta property="og:site_name" content="{% if page.site_name %}{{ page.site_name }}{% else %}{{ site.site_name }}{% endif %}" />
+<script type="application/ld+json">
+{"url":"http://localhost:4001/","headline":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","name":"Your awesome title","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}" />
+<link type="application/atom+xml" rel="alternate" href="{{ "/feed.xml" | prepend: site.baseurl }}" title="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+</head>
